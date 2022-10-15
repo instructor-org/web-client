@@ -1,10 +1,21 @@
-import './categories.css';
-import '../components/ui/card/Card';
+import { useEffect, useState } from 'react';
 import Gallery from '../components/ui/gallery/Gallery';
+import tempData from './temp_data.json';
+import './categories.css';
 
 export default function Categories() {
+  const [categories, setCategories] = useState([]);
+
+  //This needs to be updated when API is up and running
+  useEffect(() => {
+    setCategories(tempData);
+  }, []);
+
   return (
     <>
+      <Gallery 
+        content = { categories }
+      />
     </>
   )
 }
