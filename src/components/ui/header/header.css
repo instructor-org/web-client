@@ -4,10 +4,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: lightgreen;
+  background-color: rgb(43, 86, 0); /*style is temporary */
 }
 
 .header-title {
   text-align: center;
-  font-size: 10rem;
+  padding: 30px; /*style is temporary */
+  color: aliceblue; /*style is temporary */
+  font-size: 8rem; /*style is temporary */
 }
