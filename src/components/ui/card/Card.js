@@ -5,7 +5,7 @@ export default function Card(props) {
   const { data } = props;
 
   const handleCardSelect = () => {
-    console.log("I have been selected!")
+    console.log("I have been selected!");
   };
   
   return (
@@ -14,4 +14,4 @@ export default function Card(props) {
       <h2 className="card-title">{ data.cuisine_name }</h2>
     </div>
   )
-}
+};
