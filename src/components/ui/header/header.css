@@ -1,0 +1,13 @@
+.header-container {
+  width: 100vw;
+  height: 15vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgreen;
+}
+
+.header-title {
+  text-align: center;
+  font-size: 10rem;
+}
