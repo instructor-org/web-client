@@ -1,21 +1,13 @@
-import './gallery.css';
 import Card from '../card/Card';
+import './gallery.css';
 
-export default function Gallery() {
+export default function Gallery(props) {
+  const { content } = props;
+  const contentList = content.map(category => <Card data={category} />)
+
   return (
     <div className='gallery-container'>
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
+      { contentList }
     </div>
   )
 };
