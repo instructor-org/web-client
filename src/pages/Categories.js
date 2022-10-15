@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import Gallery from '../components/ui/gallery/Gallery';
+import Header from '../components/ui/header/Header';
 import tempData from './temp_data.json';
 import './categories.css';
 
@@ -13,9 +14,8 @@ export default function Categories() {
 
   return (
     <>
-      <Gallery 
-        content = { categories }
-      />
+      <Header />
+      <Gallery content = { categories } />
     </>
   )
-}
+};
