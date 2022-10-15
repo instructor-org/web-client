@@ -1,0 +1,19 @@
+.card-container {
+  width: 20vw;
+  margin: 2% 3%;
+  border-radius: 8px;
+  background-color: rgb(43, 86, 0);
+}
+
+.card-img {
+  width: 100%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.card-title {
+  text-align: center;
+  font-size: 4rem;
+  color: aliceblue;
+  padding: 2%;
+}
