@@ -3,7 +3,12 @@ import './gallery.css';
 
 export default function Gallery(props) {
   const { content } = props;
-  const contentList = content.map(category => <Card data={category} />)
+  const contentList = content.map(category => {
+    return <Card
+      key={ category.id }
+      data={ category }
+    />
+  })
 
   return (
     <div className='gallery-container'>
