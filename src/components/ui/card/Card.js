@@ -1,7 +1,8 @@
 import React from 'react';
 import './card.css';
 
-export default function Card() {
+export default function Card(props) {
+  const { data } = props;
 
   const handleCardSelect = () => {
     console.log("I have been selected!")
@@ -9,8 +10,8 @@ export default function Card() {
   
   return (
     <div className='card-container' onClick={handleCardSelect}>
-      <img className="card-img" src={require("./food.jpeg")} alt="food" />
-      <h2 className="card-title">Cuisine</h2>
+      <img className="card-img" src={require(`${data.img_ref}`)} alt="food" />
+      <h2 className="card-title">{ data.cuisine_name }</h2>
     </div>
   )
 }
