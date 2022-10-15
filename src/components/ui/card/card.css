@@ -2,7 +2,7 @@
   width: 250px;
   margin: 3% 3%;
   border-radius: 8px;
-  background-color: rgb(43, 86, 0);
+  background-color: rgb(43, 86, 0); /*style is temporary */
 }
 
 .card-img {
@@ -14,7 +14,7 @@
 .card-title {
   text-align: center;
   font-size: 3rem;
-  color: aliceblue;
+  color: aliceblue; /*style is temporary */
   padding: 6%;
 }
 
