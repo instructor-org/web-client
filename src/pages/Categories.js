@@ -14,8 +14,8 @@ export default function Categories() {
 
   return (
     <>
-      <Header />
-      <Gallery content = { categories } />
+      <Header title="Categories"/>
+      <Gallery content={ categories } />
     </>
   )
 };
