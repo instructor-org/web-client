@@ -38,5 +38,20 @@
     "id": 8,
     "cuisine_name": "Indian",
     "img_ref": "./food.jpeg"
+  },
+  {
+    "id": 9,
+    "cuisine_name": "Ramen",
+    "img_ref": "./food.jpeg"
+  },
+  {
+    "id": 10,
+    "cuisine_name": "Izakaya",
+    "img_ref": "./food.jpeg"
+  },
+  {
+    "id": 11,
+    "cuisine_name": "Sushi",
+    "img_ref": "./food.jpeg"
   }
 ]
