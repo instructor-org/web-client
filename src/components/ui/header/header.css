@@ -1,6 +1,6 @@
 .header-container {
   width: 100vw;
-  height: 15vw;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
