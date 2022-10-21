@@ -1,0 +1,26 @@
+.card-container {
+  width: 250px;
+  margin: 3% 3%;
+  border-radius: 8px;
+  background-color: rgb(43, 86, 0); /*style is temporary */
+}
+
+.card-img {
+  width: 100%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.card-title {
+  text-align: center;
+  font-size: 3rem;
+  color: aliceblue; /*style is temporary */
+  padding: 6%;
+}
+
+/* Need to test on touch screen */
+.card-container:hover {
+  transform: scale(1.1);
+  transition: transform 330ms ease-in-out;
+  cursor: pointer;
+}

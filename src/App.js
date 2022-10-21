@@ -1,10 +1,11 @@
-import './App.css';
+import Categories from "./pages/Categories";
 
 function App() {
   return (
-    <div className="App">
-    </div>
+    <>
+      <Categories />
+    </>
   );
-}
+};
 
 export default App;
