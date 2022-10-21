@@ -1,5 +1,5 @@
-import Categories from "./pages/Categories";
-import Establishment from "./pages/Establishment";
+import Categories from "./pages/categories/Categories";
+import Establishment from "./pages/establishment/Establishment";
 
 function App() {
   return (
