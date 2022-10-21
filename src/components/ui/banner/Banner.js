@@ -1,9 +1,11 @@
 import './banner.css';
-
+import img from './sushi_restaurant.jpeg'
 import React from 'react'
 
 export default function Banner() {
   return (
-    <div>Banner</div>
+    <>
+      <img className='banner' src={ img } alt="" />
+    </>
   )
 }
