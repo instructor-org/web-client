@@ -1,0 +1,36 @@
+.header {
+  height: 25vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  border: 5px solid blue;
+}
+
+.establishment__name {
+  font-size: 5rem;
+  width: 75%;
+}
+
+.icon__container {
+  height: 100%;
+  width: 25%;
+  border: 5px solid orange;
+}
+
+.review__carousel {
+  height: 50vh;
+  width: 100Vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  border: 5px solid red;
+}
+
+.review__card {
+  height: 40vh;
+  width: 25Vw;
+  margin: 0 3%;
+  border: 3px solid green;
+  border-radius: 8px;
+}
